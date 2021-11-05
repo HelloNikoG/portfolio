@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col } from 'reactstrap';
 import './App.css';
 import About from './components/About';
 import Main from './components/Main';
 
 function App() {
 	return (
-		<div className="App">
+		<Container className="App">
 			<Main />
-		</div>
+		</Container>
 	);
 }
 
