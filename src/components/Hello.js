@@ -20,9 +20,9 @@ function Hello() {
 							</p>
 							<p>
 								<h5>
-									I absolutely love the whole process of app creation and find
-									it so empowering by having the skills to build your idea out
-									and have it be functional.
+									I am passionate about the whole process of web development and
+									find it so empowering to have the skills to build out your
+									idea.
 								</h5>
 							</p>
 						</div>
