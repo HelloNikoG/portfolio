@@ -1,6 +1,6 @@
 import React from 'react';
 import Projects from './Projects';
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 const projectData = [
 	{
@@ -35,7 +35,7 @@ function ProjectList() {
 				<Row>
 					<Col className="mx-5 mt-2">
 						{projectData.map((project) => {
-							return <Projects project={project} />;
+							return <Projects key={project.id} project={project} />;
 						})}
 					</Col>
 				</Row>

@@ -1,19 +1,11 @@
 import React from 'react';
-import About from './About';
 import Hello from './Hello';
 import ProjectList from './ProjectList';
-
-import { Nav, Container, Row, Col } from 'reactstrap';
-import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai';
-import Navigation from './Navigation';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { Row, Col } from 'reactstrap';
+import { Route, Routes } from 'react-router-dom';
 import Contact from './Contact';
 
 function Main() {
-	const navStyle = {
-		color: '#fff',
-		textDecoration: 'none',
-	};
 	return (
 		<>
 			<Row>

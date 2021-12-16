@@ -1,6 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-import { Row, Nav, NavbarBrand } from 'reactstrap';
+import { Link } from 'react-router-dom';
+import { Row, Nav } from 'reactstrap';
 
 function Navigation() {
 	return (

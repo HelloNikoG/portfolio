@@ -2,7 +2,7 @@ import './App.css';
 import Main from './components/Main';
 import Navigation from './components/Navigation';
 import { Container } from 'reactstrap';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
 	return (

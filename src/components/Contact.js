@@ -27,20 +27,6 @@ function Contact() {
 								<AiOutlineAudit />
 							</a>
 						</div>
-						<p>
-							<form>
-								<input placeholder="name" type="text" />
-								<br />
-								<textarea
-									placeholder="hello Niko..."
-									type="text"
-									cols="25"
-									rows="5"
-								/>
-								<br />
-								<button>submit</button>
-							</form>
-						</p>
 					</Col>
 				</Row>
 			</div>
