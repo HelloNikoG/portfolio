@@ -1,15 +1,17 @@
-import logo from './logo.svg';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col } from 'reactstrap';
 import './App.css';
-import About from './components/About';
 import Main from './components/Main';
+import Navigation from './components/Navigation';
+import { Container } from 'reactstrap';
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 
 function App() {
 	return (
-		<Container className="App">
-			<Main />
-		</Container>
+		<Router>
+			<Container>
+				<Navigation />
+				<Main />
+			</Container>
+		</Router>
 	);
 }
 

@@ -1,16 +1,23 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import profilePic from './profile-pic.jpg';
 
 function About() {
 	return (
-		<div>
-			<h1>About Niko</h1>
-			<Col>
-				<img src={profilePic} />
+		<>
+			{/* <Col md={4} className="border">
+				<img
+					className="img-fluid"
+					src="assets/possessed-photography-JjGXjESMxOY-unsplash.jpg"
+				/>
+				<img
+					className="img-fluid"
+					src="assets/possessed-photography-rDxP1tF3CmA-unsplash.jpg"
+				/>
 			</Col>
-			<p>Web and App Developer</p>
-		</div>
+			<Col md={8} className="border p-0">
+				<div className="leftside"></div>
+			</Col> */}
+		</>
 	);
 }
 
