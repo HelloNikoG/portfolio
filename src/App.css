@@ -1,11 +1,13 @@
 body {
-	background: rgb(100, 100, 100);
+	background-color: rgb(100, 100, 100);
+	background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+
 	font-family: 'Space Mono', monospace;
 }
 
 h1,
 h3 {
-	border-left: rgb(211, 96, 61) solid 10px;
+	border-left: rgb(22, 85, 168) solid 10px;
 	padding-left: 10px;
 }
 
